@@ -1,6 +1,7 @@
 import ImageSlider from "@/components/shared/ImageSlider";
 import TextSlider from "@/components/shared/TextSlider";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
         <div className="w-[50%] mt-6 p-8 bg-slate-200 rounded-2xl text-primary-700 flex flex-col items-center gap-3">
           <h1 className="font-serif text-4xl font-medium ">Admissions are now open !</h1>
             <p className="text-sm font-medium text-center"> Don&apos;t miss the chance to be part of our vibrant community.<br/> Apply today and start your journey with us!</p>
-          <a href="/" className="relative group animate-pulse hover:animate-none flex items-center gap-2 bg-primary-600 text-slate-100 font-bold mt-2 px-6 py-3 text-lg tracking-wide rounded-3xl hover:text-primary hover:bg-slate-100  transition-all delay-75 duration-300">
+          <Link href="/" className="relative group animate-pulse hover:animate-none flex items-center gap-2 bg-primary-600 text-slate-100 font-bold mt-2 px-6 py-3 text-lg tracking-wide rounded-3xl hover:text-primary hover:bg-slate-100  transition-all delay-75 duration-300">
             Apply Now !
             <ArrowRight className="absolute right-4 top-1/2 -translate-y-1/2 scale-0  transition-all duration-300 text-primary origin-left group-hover:scale-125 group-hover:-right-2"/>
-          </a>
+          </Link>
         </div>
       </main>
       <TextSlider/>

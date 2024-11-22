@@ -9,7 +9,6 @@ import Link from 'next/link'
 
 const Navbar = () => {
   const [isScrolledPast, setIsScrolledPast] = useState(false);
-  const [showGetStarted, setshowGetStarted] = useState(false);
   const pathname = usePathname()
 
 
@@ -20,11 +19,6 @@ const Navbar = () => {
           setIsScrolledPast(true);  
         } else {
           setIsScrolledPast(false);
-        }
-        if (window.scrollY > window.innerHeight * 2.5) {
-          setshowGetStarted(true);  
-        } else {
-          setshowGetStarted(false);
         }
       };
   
