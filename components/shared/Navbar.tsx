@@ -39,7 +39,7 @@ const Navbar = () => {
   const otherPage = pathname !== '/'
   if(pathname === '/start')return null
   return (
-    <header className={`z-50 py-10 px-16 ${isScrolledPast ||otherPage ?'bg-white text-gray-900':'bg-primary'} sticky top-0 font-medium flex items-center justify-between`}>
+    <header className={`z-50 py-8 px-16 ${isScrolledPast ||otherPage ?'bg-white text-gray-900':'bg-primary-500'} sticky top-0 font-medium flex items-center justify-between`}>
       <div className='text-2xl font-serif font-bold tracking-wider'>
         Vishal Bharti School
       </div>

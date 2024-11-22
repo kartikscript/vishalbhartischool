@@ -118,72 +118,72 @@ export const navLinks =[
 export const sliderImages= [
   {
     id:1,
-    src:'/main-1.webp',
+    src:'/images/main-1.webp',
     alt:'slider photo'
   },
   {
     id:2,
-    src:'/main-2.webp',
+    src:'/images/main-2.webp',
     alt:'slider photo'
   },
   {
     id:3,
-    src:'/main-3.webp',
+    src:'/images/main-3.webp',
     alt:'slider photo'
   },
   {
     id:4,
-    src:'/main-4.webp',
+    src:'/images/main-4.webp',
     alt:'slider photo'
   },
   {
     id:5,
-    src:'/main-5.webp',
+    src:'/images/main-5.webp',
     alt:'slider photo'
   },
   {
     id:6,
-    src:'/main-6.webp',
+    src:'/images/main-6.webp',
     alt:'slider photo'
   },
   {
     id:7,
-    src:'/main-7.webp',
+    src:'/images/main-7.webp',
     alt:'slider photo'
   },
   {
     id:8,
-    src:'/main-8.webp',
+    src:'/images/main-8.webp',
     alt:'slider photo'
   },
   {
     id:9,
-    src:'/main-9.webp',
+    src:'/images/main-9.webp',
     alt:'slider photo'
   },
   {
     id:10,
-    src:'/main-10.webp',
+    src:'/images/main-10.webp',
     alt:'slider photo'
   },
   {
     id:11,
-    src:'/main-11.webp',
+    src:'/images/main-11.webp',
     alt:'slider photo'
   },
   {
     id:12,
-    src:'/main-12.webp',
+    src:'/images/main-12.webp',
     alt:'slider photo'
   },
   {
     id:13,
-    src:'/main-13.webp',
+    src:'/images/main-13.webp',
     alt:'slider photo'
   },
   {
     id:14,
-    src:'/main-14.webp',
+    src:'/images/main-14.webp',
     alt:'slider photo'
   },
 ]
