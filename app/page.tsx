@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div>
       <main className="bg-primary-500 min-h-screen flex flex-col items-center gap-10 pb-10 ">
-        <h1 className="mt-6 text-5xl inline-block font-bold border-b-2 border-primary-100 py-3 px-6">Welcome to Vishal Bharti School !</h1>
-        <p className="text-primary-100 uppercase text-lg font-medium">where learning meets excellence ! Join us in creating bright futures</p>
+        <h1 className="mt-6 text-4xl text-center md:text-5xl inline-block font-bold border-b-2 border-primary-100 py-3 px-6">Welcome to Vishal Bharti School !</h1>
+        <p className="text-primary-100 uppercase text-center px-8 text-lg font-medium">where learning meets excellence ! Join us in creating bright futures</p>
         <ImageSlider/>
-        <div className="w-[50%] mt-6 p-8 bg-slate-200 rounded-2xl text-primary-700 flex flex-col items-center gap-3">
-          <h1 className="font-serif text-4xl font-medium ">Admissions are now open !</h1>
+        <div className="w-[70%] md:w-[50%] mt-6 p-8 bg-slate-200 rounded-2xl text-primary-700 flex flex-col items-center gap-3">
+          <h1 className="font-serif text-4xl font-medium text-center ">Admissions are now open !</h1>
             <p className="text-sm font-medium text-center"> Don&apos;t miss the chance to be part of our vibrant community.<br/> Apply today and start your journey with us!</p>
           <Link href="/" className="relative group animate-pulse hover:animate-none flex items-center gap-2 bg-primary-600 text-slate-100 font-bold mt-2 px-6 py-3 text-lg tracking-wide rounded-3xl hover:text-primary hover:bg-slate-100  transition-all delay-75 duration-300">
             Apply Now !
@@ -20,15 +20,15 @@ export default function Home() {
         </div>
       </main>
       <TextSlider/>
-      <section className="flex flex-col items-center gap-6 bg-slate-100 px-14 py-14 text-gray-950">
+      <section className="flex flex-col items-center gap-6 bg-slate-100 px-10 md:px-14 py-14 text-gray-950">
         <h1 className="text-7xl font-mono font-semibold">Why Us ?</h1>
-        <p className="font-medium px-4 py-6 border-x-2 border-gray-800 text-gray-700 w-[50%] text-lg">
+        <p className="font-medium px-4 py-6 border-x-2 border-gray-800 text-gray-700 w-[80%] md:w-[50%] text-lg">
         Choosing the right school is one of the most important decisions for your child&apos;s future. At Vishal Bharti School, we stand out for our commitment to excellence, innovation, and care. Here&apos;s why families trust us:
         </p>
-        <div className="grid gap-4 grid-cols-1 w-[60%] mt-16 py-10 relative">
-          <div className="absolute top-0 -translate-x-1/2 left-1/2 w-[3px] h-full bg-primary"/>
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 size-6 rounded-full bg-primary"/>
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 size-6 rounded-full bg-primary"/>
+        <div className="grid gap-4 grid-cols-1 w-[60%] mt-16 py-10 relative *:z-20">
+          <div className="absolute z-10 top-0 -translate-x-1/2 left-1/2 w-[3px] h-full bg-primary"/>
+          <div className="absolute z-10 top-0 left-1/2 -translate-x-1/2 size-6 rounded-full bg-primary"/>
+          <div className="absolute z-10 bottom-0 left-1/2 -translate-x-1/2 size-6 rounded-full bg-primary"/>
           <div className="bg-primary-500  text-slate-50 rounded-2xl space-y-4 p-6 w-72 justify-self-start">
             <h2 className="text-2xl  font-semibold">Holistic Learning Experience</h2>
             <p className="text-slate-200 text-sm">We focus on academics, arts, sports, and character development to nurture well-rounded individuals.</p>
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="text-slate-100 bg-primary-500 text-lg font-semibold py-20 space-y-6 *:text-center">
+      <footer className="text-slate-100 bg-primary-500 text-lg font-semibold px-10 py-20 space-y-6 *:text-center">
         <h1 className="text-4xl font-bold ">Vishal Bharti Senior Secondary School</h1>
         <p className="">Vishal Bharti Senior Secondary School, Parwana Road, Pundrik Vihar, Pitam Pura, New Delhi, Delhi, India</p>
         <p >9354937851/54</p>
